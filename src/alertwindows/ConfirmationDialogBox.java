@@ -14,7 +14,7 @@ public class ConfirmationDialogBox {
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//*[@id=\"node-102\"]/div/div[1]/div/div/button")).click();
 		Thread.sleep(5000);
-		driver.switchTo().alert().dismiss();  // click on Cancel Button
+		driver.switchTo().alert().dismiss();  // Click on Cancel Button
 	}
 
   @BeforeTest
